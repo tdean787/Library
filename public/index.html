@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../dist/css/compiled.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="libraryModule">
+      <div class="inner-column">
+        <h2>Create Your Own Library!</h2>
+        <!-- <button id="new-book">New Book</button> -->
+        <div class="form-center">
+          <form action="" class="add-book-form" id="add-book-form">
+            <div>
+              <input
+                type="text"
+                id="title"
+                name="title"
+                required
+                placeholder="Title"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                id="author"
+                name="author"
+                placeholder="Author"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="number"
+                id="pages"
+                name="pages"
+                placeholder="# of Pages"
+                required
+              />
+            </div>
+            <div class="read-status">
+              <label for="read"> Read? </label>
+              <input type="checkbox" id="read" name="read" />
+              <button type="submit" id="bookSubmit">submit</button>
+            </div>
+          </form>
+        </div>
+        <div id="libraryContainer">
+          <table id="bookTable">
+            <div>
+              <th>Book Title</th>
+              <th>Author</th>
+              <th>Pages</th>
+              <th>Read</th>
+            </div>
+            <tbody id="book-table-rows"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

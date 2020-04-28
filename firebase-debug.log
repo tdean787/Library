@@ -1,0 +1,48 @@
+[debug] [2020-04-13T18:55:07.864Z] ----------------------------------------------------------------------
+[debug] [2020-04-13T18:55:07.869Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-04-13T18:55:07.870Z] CLI Version:   8.0.2
+[debug] [2020-04-13T18:55:07.870Z] Platform:      darwin
+[debug] [2020-04-13T18:55:07.870Z] Node Version:  v10.16.0
+[debug] [2020-04-13T18:55:07.879Z] Time:          Mon Apr 13 2020 13:55:07 GMT-0500 (Central Daylight Time)
+[debug] [2020-04-13T18:55:07.879Z] ----------------------------------------------------------------------
+[debug] [2020-04-13T18:55:07.879Z] 
+[debug] [2020-04-13T18:55:07.899Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-13T18:55:07.900Z] > authorizing via signed-in user
+[debug] [2020-04-13T18:55:07.901Z] [iam] checking project library-31857 for permissions ["firebase.projects.get"]
+[debug] [2020-04-13T18:55:07.907Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-13T18:55:07.908Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-13T18:55:08.152Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 13 Apr 2020 18:55:08 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-13T18:55:08.181Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/library-31857:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-13T18:55:08.456Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 13 Apr 2020 18:55:08 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=129","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-13T18:55:08.458Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/library-31857  
+ 
+[debug] [2020-04-13T18:55:08.802Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 13 Apr 2020 18:55:08 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from '/Users/taylordean/Google Drive/Learn to Code/JavaScript, HTML, CSS/OdinProject/Library'...
+[info] 
+[debug] [2020-04-13T18:55:08.813Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/library-31857/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[debug] [2020-04-13T18:55:09.216Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 13 Apr 2020 18:55:09 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  functions: Watching "/Users/taylordean/Google Drive/Learn to Code/JavaScript, HTML, CSS/OdinProject/Library/functions" for Cloud Functions...
+[debug] [2020-04-13T18:55:09.329Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-04-13T18:55:09.329Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-04-13T18:55:09.330Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-04-13T18:55:09.331Z] [worker-~diagnostic~-a51100fe-4d9a-4826-aa54-9b6025af9e8e]: Assigning socketPath: /var/folders/yq/90zqxvrs2r5g966lcjymvqmw0000gn/T/fire_emu_1305.sock 
+[debug] [2020-04-13T18:55:09.332Z] [worker-~diagnostic~-a51100fe-4d9a-4826-aa54-9b6025af9e8e]: BUSY 
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2020-04-13T18:55:09.977Z] [runtime-status] [1305] Functions runtime initialized. {"cwd":"/Users/taylordean/Google Drive/Learn to Code/JavaScript, HTML, CSS/OdinProject/Library/functions","node_version":"10.16.0"} 
+[debug] [2020-04-13T18:55:09.978Z] [runtime-status] [1305] Disabled runtime features: undefined 
+[debug] [2020-04-13T18:55:09.983Z] [runtime-status] [1305] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/taylordean/Google Drive/Learn to Code/JavaScript, HTML, CSS/OdinProject/Library/functions/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-04-13T18:55:09.986Z] [runtime-status] [1305] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/taylordean/Google Drive/Learn to Code/JavaScript, HTML, CSS/OdinProject/Library/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-04-13T18:55:09.993Z] [runtime-status] [1305] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-04-13T18:55:10.067Z] [runtime-status] [1305] Checked functions.config() {"config":{}} 
+[debug] [2020-04-13T18:55:10.069Z] [runtime-status] [1305] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/taylordean/Google Drive/Learn to Code/JavaScript, HTML, CSS/OdinProject/Library/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-04-13T18:55:10.070Z] [runtime-status] [1305] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/taylordean/Google Drive/Learn to Code/JavaScript, HTML, CSS/OdinProject/Library/functions/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-04-13T18:55:10.070Z] [runtime-status] [1305] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"/Users/taylordean/Google Drive/Learn to Code/JavaScript, HTML, CSS/OdinProject/Library/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-04-13T18:55:10.071Z] [runtime-status] [1305] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/taylordean/Google Drive/Learn to Code/JavaScript, HTML, CSS/OdinProject/Library/functions/node_modules/firebase-admin/lib/index.js"}} 
+[debug] [2020-04-13T18:55:10.073Z] [worker-~diagnostic~-a51100fe-4d9a-4826-aa54-9b6025af9e8e]: IDLE 

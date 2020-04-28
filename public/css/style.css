@@ -1,0 +1,26 @@
+html {
+  height: 100vh;
+  background-color: #1d4058;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+form {
+  margin: 1em;
+}
+
+th {
+  color: white;
+}
+
+.libraryModule {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.form-center {
+  display: flex;
+  justify-content: center;
+}
